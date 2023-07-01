@@ -647,27 +647,32 @@ img {
 ========= customers style section 5 ========= 
 */
 .customers {
-	padding-top: 120px;
-	padding-bottom: 120px;
+    padding: 96px 0;
 }
 
 .customers-title {
+	font-weight: 700;
 	text-align: center;
 	font-size: 36px;
-	line-height: 1.1;
+	line-height: 1.11;
+	letter-spacing: 0.02em;
+	text-transform: capitalize;
 	color: var(--color-grey);
 	margin-bottom: 72px;
 }
 
 .customers-list {
 	display: flex;
-	gap: 24px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 72px 16px;
 }
 
 
 .customers-item {
-	width: calc((100% - 120px) / 6); 
-	height: 88px;
+    width: calc((100% - 16px) / 2);
+    height: 88px;
 }
 
 .customers-link {
