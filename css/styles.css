@@ -37,6 +37,8 @@ ul, p, h1, h2, h3, h4 {
 
 img {
 	display: block;
+	max-width: 100%;
+	height: auto;
 }
 
 .list {
@@ -498,8 +500,7 @@ img {
 ========= advantages style section 2 ========= 
 */
 .advantages {
-	padding-top: 96px; 
-	padding-bottom: 96px
+    padding: 96px 0;
 }
 
 .advantages-list {
@@ -514,8 +515,8 @@ img {
 
 .advantages-element {
 	/* width: calc((100% - 72px) / 4);*/
-	width: 100%;
-	position: relative;
+    width: 100%;
+    max-width: 396px;
 }
 
 .advantages-icon {
@@ -524,16 +525,14 @@ img {
 
 
 .advantages-title {
+	font-size: 36px;
     font-weight: 700;
-    font-size: 36px;
-    line-height: 40px;
-	letter-spacing: 0.72px;
-	text-transform: capitalize;
-    color: var(--color-grey);
-    padding-bottom: 8px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    line-height: 1.11;
+    letter-spacing: 0.045em;
+    text-transform: capitalize;
+    color: var(--first-color);
+    text-align: center;
+    margin-bottom: 8px;
 }
 
 .advantages-desc {
@@ -548,40 +547,21 @@ img {
 ========= action style section 3 ========= 
 */
 .action {
-	padding-bottom: 120px;
-}
-
-.action-list {
-	display: flex;
-	gap: 24px;
-}
-
-.action-element {
-	width: calc((100% - 3 * 16px) / 3);
-	flex-basis: calc((100% - 48px) / 3);
-}
-
-.action-title {
-	font-size: 36px;
-	line-height: 1.11;
-	text-align: center;
-	letter-spacing: 0.02em;
-	text-transform: capitalize;
-	color: var(--color-navy-blue-modal);
-	margin-bottom: 72px;
-}
-
+    display: none;
+    padding-bottom: 120px;
+  }
 /*
 ========= team style section 4 ========= 
 */
 
 .team {
 	background-color: var(--color-cloud);
-	padding: 120px 0;
+	padding: 96px 0;
 }
 
 .team-social-list {
 	display: flex;
+	flex-wrap: wrap;
 	justify-content: center;
 	gap: 24px;
 }
@@ -616,8 +596,10 @@ img {
 }
 
 .team-list {
-	display: flex;
-	gap: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 72px;
 }
 
 .team-title {
@@ -644,18 +626,18 @@ img {
 	letter-spacing: 0.02em;
 	color: var(--color-grey);
 	}
+
 .team-desc {
-line-height: 1.5;
-text-align: center;
-color: var(--color-slate);
-margin-bottom: 8px;
+	line-height: 1.5;
+	text-align: center;
+	color: var(--color-slate);
+	margin-bottom: 8px;
 }
 
 .team-item {
+    max-width: 264px;
 	background-color: var(--color-white);
-	width: calc((100% - 72px) / 4);
 	border-radius: 0px 0px 4px 4px;
-	padding-left: 0;
 	box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 
 	0px 1px 1px rgba(46, 47, 66, 0.16), 
 	0px 2px 1px rgba(46, 47, 66, 0.08);
