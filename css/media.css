@@ -47,6 +47,17 @@
     padding-left: 16px;
     margin: 0 auto;
   }
+/* customers style section 5 */
+  .hero-title {
+    font-size: 56px;
+    line-height: 1.07;
+    max-width: 496px;
+  }
+  .hero {
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), 
+    rgba(46, 47, 66, 0.7)), 
+    url(../images/hero/tablet-bg.jpg);
+  }
 /* advantages style section 2 */
   .advantages {
     padding: 96px;
@@ -102,6 +113,12 @@
     padding-left: 15px;
     padding-right: 15px;
 
+  }
+/* hero style section 1 */
+  .hero {
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), 
+    rgba(46, 47, 66, 0.7)), 
+    url(../images/hero/people-office.jpg);
   }
 /* advantages style section 2 */
   .advantages {
@@ -176,7 +193,7 @@
   .team-item {
     width: calc((100% - 24px * 3) / 4);
   }
-  /* customers style section 5 */
+/* customers style section 5 */
   .customers-item {
     width: calc((100% - 120px) / 6);
   }
