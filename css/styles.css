@@ -241,8 +241,8 @@ img {
 	max-width: 1440px;
 	background-repeat: no-repeat;
 	background-size: cover; 
-	padding-top: 188px;
-	padding-bottom: 188px;
+	padding-top: 112px;
+	padding-bottom: 112px;
 	margin-left: auto;
 	margin-right: auto;
 	background-position: center;
@@ -869,7 +869,7 @@ img {
 }
 
 .footer-input {
-	width: 398px;
+	width: 100%;
 	height: 40px;
 	flex-shrink: 0;
 	display: block;

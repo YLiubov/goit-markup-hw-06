@@ -161,7 +161,7 @@
   }
 /* advantages style section 2 */
   .advantages {
-    padding: 96px;
+    padding: 96px 0;
   }
   .advantages-list{
     display: flex;
@@ -169,7 +169,7 @@
     flex-wrap: wrap;
   }
   .advantages-element {
-    width: calc((100% - 24px) / 2);
+    width: 356px ;
   }
   .advantages-icon {
     display: none;
@@ -200,8 +200,13 @@
   }
 /* customers style section 5 */
   .customers-item {
-    width: calc((100% - 48px) / 3);
+    width: 168px;
   }
+
+  .customers-list {
+    gap: 72px 24px;
+  }
+
 /* footer style */
   .footer-desc {
     line-height: 1.5;
@@ -347,12 +352,6 @@
 
   }
 /* heder style */
-  .header-nav-item {
-    margin-left: 76px;
-  }
-  .header-nav-list {
-    margin-right: 40px;
-  }
   .header-nav-list:last-child {
     margin-right: 0;
   }
@@ -406,7 +405,6 @@
   .header-address-list {
     display: flex;
     padding: 24px 0 24px;
-    margin-right: 40px;
     padding-left: 0;
   }
   .header-address-list:last-child {
@@ -422,6 +420,7 @@
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), 
     rgba(46, 47, 66, 0.7)), 
     url(../images/hero/people-office.jpg);
+    padding: 188px 0;
   }
   @media (min-device-pixel-ratio: 2),
   (min-resolution: 192dpi),
